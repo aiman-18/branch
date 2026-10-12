@@ -17,6 +17,8 @@ function formatRupees(amount) {
     });
 }
 
+
+
 function renderExpenses() {
     expenseList.replaceChildren();
 
