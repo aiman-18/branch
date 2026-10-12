@@ -1,0 +1,131 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #edf6f9;
+    color: #243238;
+    padding: 30px 15px;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    padding: 28px;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px #00000012;
+}
+
+h1 {
+    text-align: center;
+    color: #006d77;
+}
+
+.subtitle {
+    text-align: center;
+    margin: 8px 0 24px;
+    color: #68777b;
+}
+
+.total-card {
+    background: #006d77;
+    color: white;
+    padding: 22px;
+    border-radius: 12px;
+    margin-bottom: 24px;
+}
+
+.total-card h2 {
+    margin-top: 8px;
+    font-size: 30px;
+}
+
+label {
+    display: block;
+    margin: 14px 0 6px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccd5d8;
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+button {
+    padding: 12px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+form button {
+    width: 100%;
+    margin-top: 20px;
+    background: #006d77;
+    color: white;
+}
+
+form button:hover {
+    background: #00545c;
+}
+
+.list-heading {
+    margin-top: 28px;
+    font-size: 20px;
+}
+
+#expenseList {
+    list-style: none;
+    margin-top: 12px;
+}
+
+.expense-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 13px 0;
+    border-bottom: 1px solid #e6ebed;
+}
+
+.expense-details {
+    overflow-wrap: anywhere;
+}
+
+.expense-details small {
+    display: block;
+    color: #68777b;
+    margin-top: 5px;
+}
+
+.expense-right {
+    text-align: right;
+    flex-shrink: 0;
+}
+
+.delete-button {
+    background: #ffe3e3;
+    color: #b42318;
+    margin-top: 5px;
+    padding: 6px 9px;
+}
+
+#emptyMessage {
+    color: #68777b;
+    margin-top: 12px;
+}
+
+@media (max-width: 400px) {
+    .container {
+        padding: 18px;
+    }
+}
